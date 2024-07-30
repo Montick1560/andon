@@ -1,6 +1,8 @@
 .sideBarApp {
   grid-area: sidebar;
   background-color: rgb(234, 234, 236);
+  overflow: hidden;
+  max-height: 100dvh;
 }
 
 .imgInoac {
@@ -14,7 +16,7 @@
 }
 
 .relojTiempo {
-  height: 60dvh;
+  height: 45%;
   background-color: rgb(234, 234, 236);
   display: flex;
   flex-direction: column;
@@ -61,7 +63,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25%;
+
 }
 
 .moldeTexto {
