@@ -1,0 +1,26 @@
+.sideBarApp {
+  grid-area: sidebar;
+  background-color: red;
+}
+
+.imgInoac {
+  width: 15rem;
+}
+.barraAzul{
+  background-color: blue;
+  
+}
+.relojTiempo {
+  height: 60%;
+  background-color: gray;
+}
+.bottom{
+  background-color: blanchedalmond;
+  height: 40%;
+}
+.headerTotal{
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  justify-content: center;
+}
