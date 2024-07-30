@@ -1,26 +1,70 @@
 .sideBarApp {
   grid-area: sidebar;
-  background-color: red;
+  background-color: rgb(234, 234, 236);
 }
 
 .imgInoac {
-  width: 15rem;
+  width: 12dvh;
 }
-.barraAzul{
-  background-color: blue;
-  
+
+.barraAzul {
+  background-color: RGB(40, 69, 167);
+  width: 39.3dvh;
+  height: 5dvh;
 }
+
 .relojTiempo {
-  height: 60%;
-  background-color: gray;
+  height: 60dvh;
+  background-color: rgb(234, 234, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
 }
-.bottom{
-  background-color: blanchedalmond;
-  height: 40%;
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  height: 10dvh;
 }
-.headerTotal{
+
+.headerTotal {
   display: flex;
   flex-direction: row;
   height: fit-content;
   justify-content: center;
+}
+
+.buttonAjustes {
+  width: 60dvh;
+  height: 10dvh;
+  background-color: rgb(58, 144, 131);
+  border-radius: 1%;
+  color: rgb(0, 0, 0);
+  font-family: 'Inter';
+  font-size: 6dvh;
+}
+
+.imgReloj {
+  width: 25dvh;
+  align-items: center;
+
+}
+
+.imgBotonEstado {
+  width: 25dvh;
+}
+
+.moldeActual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25%;
+}
+
+.moldeTexto {
+  margin: 10%;
+  
 }
