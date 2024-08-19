@@ -9,13 +9,13 @@ export function Main() {
             </div>
             <div className={s.contenedorTiempos}>
                 <div className={s.tiempoProduccion}>
-                    <h1 className={s.tProduccion} >00:00:00</h1>
+                    <h1 className={s.tProduccion} >00:00</h1>
                 </div >
                 <div className={s.tiempoMuerto}>
-                    <h1 className={s.tMuerto}>00:00:00</h1>
+                    <h1 className={s.tMuerto}>00:00</h1>
                 </div>
                 <div className={s.tiempoFalla}>
-                    <h1 className={s.tFalla}>00:00:00</h1>
+                    <h1 className={s.tFalla}>00:00</h1>
                 </div>
             </div>
         </section>

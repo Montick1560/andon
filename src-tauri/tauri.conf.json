@@ -22,8 +22,8 @@
         "title": "tauri-andon-selladora",
         "width": 1024,
         "height": 1280,
-        "minHeight": 1280,
-        "minWidth": 1024,
+        "minHeight": 1024,
+        "minWidth": 1280,
         "maxHeight": 1920,
         "maxWidth": 1080 
       }

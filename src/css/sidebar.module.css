@@ -3,7 +3,7 @@
   background-color: rgb(28, 76, 150);
   overflow: hidden;
   max-height: 100dvh;
-  
+  border-radius: 0dvh 4dvh 4dvh 0dvh;
 }
 
 .imgInoac {
