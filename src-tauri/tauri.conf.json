@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "tauri-andon-selladora",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -20,8 +20,12 @@
     "windows": [
       {
         "title": "tauri-andon-selladora",
-        "width": 800,
-        "height": 600
+        "width": 1024,
+        "height": 1280,
+        "minHeight": 1280,
+        "minWidth": 1024,
+        "maxHeight": 1920,
+        "maxWidth": 1080 
       }
     ],
     "security": {

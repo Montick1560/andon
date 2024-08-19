@@ -1,8 +1,9 @@
 .sideBarApp {
   grid-area: sidebar;
-  background-color: rgb(234, 234, 236);
+  background-color: rgb(28, 76, 150);
   overflow: hidden;
   max-height: 100dvh;
+  
 }
 
 .imgInoac {
@@ -10,14 +11,14 @@
 }
 
 .barraAzul {
-  background-color: RGB(40, 69, 167);
+  background-color: RGB(255, 255, 255);
   width: 39.3dvh;
   height: 5dvh;
 }
 
 .relojTiempo {
   height: 45%;
-  background-color: rgb(234, 234, 236);
+  background-color: rgb(28, 76, 150);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +29,7 @@
 .bottom {
   display: flex;
   flex-direction: row;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(28, 76, 150);
   height: 10dvh;
 }
 
@@ -43,8 +44,7 @@
   width: 60dvh;
   height: 10dvh;
   background-color: rgb(58, 144, 131);
-  border-radius: 1%;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 248, 248);
   font-family: 'Inter';
   font-size: 6dvh;
 }
@@ -63,10 +63,71 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  font-size: 4dvh;
 }
 
 .moldeTexto {
   margin: 10%;
-  
+
+}
+
+
+/* CSS */
+.button3 {
+  appearance: none;
+  background-color: RGB(0, 114, 88);
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 4dvh;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 60dvh;
+  height: 10dvh;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button3:hover {
+  transition: 5ms;
+  animation: forwards;
+  background-color: RGB(53, 53, 65);
+}
+
+.button3:focus {
+  box-shadow: rgba(76, 78, 77, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button3:active {
+  background-color: RGB(30, 30, 30);
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.moldeActual {
+  color: white;
 }

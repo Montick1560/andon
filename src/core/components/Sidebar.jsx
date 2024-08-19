@@ -18,16 +18,16 @@ export function Sidebar() {
   return (
     <nav className={s.sideBarApp}>
       <header className={s.headerTotal}>
-        <img className={s.imgInoac} src="public/img/INOACLOGOw.png"></img>
+        <img className={s.imgInoac} src="public/img/INOACLOGO.png"></img>
       </header>
       <div className={s.barraAzul}></div>
       <Molde/>
       <section className={s.relojTiempo}>
-        <img className={s.imgReloj} src="public/img/reloj.png"></img>
-        <h1>{currentTime}</h1>
+        <img className={s.imgReloj} src="public/img/RecursoReloj.png"></img>
+        <h1 className={s.moldeActual}>{currentTime}</h1>
       </section>
       <section className={s.bottom}>
-        <button className={s.buttonAjustes}>AJUSTES</button>
+        <button className={s.button3}>AJUSTES</button>
       </section>
       <div className={s.barraAzul}></div>
       <section className={s.headerTotal}>
@@ -37,11 +37,11 @@ export function Sidebar() {
   );
 }
 function Molde(){
-  const [statusMolde,setStatusMolde] = useState(null)
+  const [statusMolde,setStatusMolde] = useState(2)
   return(
     <section className={s.moldeActual}>
     <img className={s.imgBotonEstado} src={statusMolde == 1 ? "public/img/botonGris.png": statusMolde == 2 ?"public/img/botonVerde.png":"public/img/botonRojo.png" }></img>
-    <h1>Esperando molde...</h1>
+    <h1 className={s.moldeActual}>Esperando molde...</h1>
   </section>
   )
 }

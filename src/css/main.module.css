@@ -1,6 +1,104 @@
 .mainContent {
-height: 100%;
-width: 100%;
-background-color: rgb(225,225,225);
-grid-area: main;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 217, 226);
+    grid-area: main;
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: -moz-linear-gradient(130deg, rgb(239, 241, 244) 0%, rgb(211, 217, 226) 100%);
+    background: -webkit-linear-gradient(130deg, rgb(239, 241, 244) 0%, rgb(211, 217, 226) 100%);
+    background: linear-gradient(130deg, rgb(239, 241, 244) 0%, rgb(211, 217, 226) 100%);
+}
+
+.divTiempos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: rgb(94, 178, 47);
+    border-width: 0.8dvh;
+}
+
+.contadorTiempos {
+    padding: 0.3dvh;
+    font-size: 6rem;
+    color: rgb(94, 178, 47);
+}
+
+.tipoTiempoTexto {
+    color: rgb(94, 178, 47);
+    font-size: 4rem;
+}
+
+.contenedorTiempos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 1%;
+    margin: 1rem;
+    border-radius: 2rem;
+    overflow: auto;
+}
+
+
+.tProduccion {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 20, 20);
+    font-size: 4vw;
+    font-family: 'Inter', monospace;
+}
+
+.tMuerto {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 20, 20);
+    font-size: 4vw;
+    font-family: 'Inter', monospace;
+}
+
+.tFalla {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 20, 20);
+    font-size: 4vw;
+    font-family: 'Inter', monospace;
+}
+
+
+.tiempoProduccion,
+.tiempoMuerto,
+.tiempoFalla {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 7px -1px 7px -4px rgba(0, 0, 0, 0.64);
+    -webkit-box-shadow: 7px -1px 7px -4px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 7px -1px 7px -4px rgba(0, 0, 0, 0.64);
 }
